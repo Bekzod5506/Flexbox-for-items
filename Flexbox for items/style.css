@@ -1,0 +1,199 @@
+  /* These codes are written by using order */
+.container0{
+    display: flex;
+    width: 90%;
+    height: 300px;
+    background-color: rgb(42, 105, 42);
+    border-radius: 9px;
+    border: 2px solid red;
+    margin-left: 65px;
+    margin-top: 5px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+span{
+    color: blue;
+}
+.flex-item{
+    font-size: 20px;
+    padding-top: 37px;
+    text-align: center;
+      color: blue;
+    width: 100px;
+    height: 70px;
+    background-color: rgb(223, 223, 53);
+    border-radius: 7px;
+    border: 1px solid black;
+    }
+    .item4{
+        order: 1;
+    }
+    .item1{
+        order: 2;
+    }
+    .item2{
+        order: 3;
+    }
+    .item3{
+        order: 4;
+    }
+    /* These codes are written by using flex-grow */
+    .container1{
+        display: flex;
+        width: 90%;
+        height: 300px;
+        background-color: rgb(42, 105, 42);
+        border-radius: 9px;
+        border: 2px solid red;
+        margin-left: 65px;
+        margin-top: 5px;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .flex-item-1{
+        font-size: 20px;
+        padding-top: 37px;
+        text-align: center;
+          color: blue;
+        width: 100px;
+        height: 70px;
+        background-color: rgb(223, 223, 53);
+        border-radius: 7px;
+        border: 1px solid black;}
+        .item7{
+            flex-grow: 2;
+        }
+        .item5{
+            flex-grow: 1;
+        }
+        .item8{
+            flex-grow: 3;
+        }
+        /* These codes are written by using flex-shrink */
+        .container2{
+            display: flex;
+            width: 90%;
+            height: 300px;
+            background-color: rgb(42, 105, 42);
+            border-radius: 9px;
+            border: 2px solid red;
+            margin-left: 65px;
+            margin-top: 5px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .flex-item-2{
+            font-size: 20px;
+            padding-top: 37px;
+            text-align: center;
+              color: blue;
+            width: 600px;
+            height: 70px;
+            background-color: rgb(223, 223, 53);
+            border-radius: 7px;
+            border: 1px solid black;}
+             .item9{
+                flex-shrink: 3;
+            }
+            .item11{
+                flex-shrink: 4;
+            }
+            .item12{
+                flex-shrink: 2;
+            }
+             /* These codes are written by using flex-basis */
+            .container3{
+                display: flex;
+                width: 90%;
+                height: 300px;
+                background-color: rgb(42, 105, 42);
+                border-radius: 9px;
+                border: 2px solid red;
+                margin-left: 65px;
+                margin-top: 5px;
+                flex-direction: row;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+                .flex-item-3{
+                    font-size: 20px;
+                    padding-top: 37px;
+                    text-align: center;
+                      color: blue;
+                     flex-basis: 100px;
+                     height: 70px;
+                    background-color: rgb(223, 223, 53);
+                    border-radius: 7px;
+                    border: 1px solid black;}
+                    /* These codes are written by using flex */
+                    .container4{
+                        display: flex;
+                        width: 90%;
+                        height: 300px;
+                        background-color: rgb(42, 105, 42);
+                        border-radius: 9px;
+                        border: 2px solid red;
+                        margin-left: 65px;
+                        margin-top: 5px;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        flex-wrap: wrap;
+                        align-items: center;
+                    }
+                    .flex-item-4{
+                        font-size: 20px;
+                        padding-top: 37px;
+                        text-align: center;
+                          color: blue;
+                         flex-basis: 100px;
+                         height: 70px;
+                        background-color: rgb(223, 223, 53);
+                        border-radius: 7px;
+                        border: 1px solid black;}
+                        .item14{
+                            flex: 3 2 150px;
+                        }
+                        .item16{
+                              flex: 2 3 130px;
+                        }
+                          /* These codes are written by using align-self */
+                        .container5{
+                            display: flex;
+                            width: 90%;
+                            height: 300px;
+                            background-color: rgb(42, 105, 42);
+                            border-radius: 9px;
+                            border: 2px solid red;
+                            margin-left: 65px;
+                            margin-top: 5px;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            flex-wrap: wrap;
+                            align-items: center;}
+                            .flex-item-5{
+                                font-size: 20px;
+                                padding-top: 37px;
+                                text-align: center;
+                                  color: blue;
+                                 flex-basis: 100px;
+                                 height: 70px;
+                                background-color: rgb(223, 223, 53);
+                                border-radius: 7px;
+                                border: 1px solid black;}
+                                .item18{
+                                    align-self: flex-start;
+                                }
+                                .item20{
+                                    align-self: flex-end;
+                                }
+         
